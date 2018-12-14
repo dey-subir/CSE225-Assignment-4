@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1543961523 source:f:\data structure\lab15\bubblesort.cpp
+	"BubbleSort.h"
+	<iostream>
+
+1543962227 source:f:\data structure\lab15\insertionsort.cpp
+	"InsertionSort.h"
+	<iostream>
+
+1543961875 source:f:\data structure\lab15\margesort.cpp
+	"MargeSort.h"
+	<iostream>
+
+1543962178 source:f:\data structure\lab15\selectionsort.cpp
+	"SelectionSort.h"
+	<iostream>
+
+1543867432 f:\data structure\lab15\selectionsort.h
+	<vector>
+
+1543872462 f:\data structure\lab15\bubblesort.h
+	<vector>
+
+1543870174 f:\data structure\lab15\insertionsort.h
+	<vector>
+
+1543962424 source:f:\data structure\lab15\main.cpp
+	<iostream>
+	"SelectionSort.h"
+	"InsertionSort.h"
+	"MargeSort.h"
+	"BubbleSort.h"
+	<vector>
+
+1543872461 f:\data structure\lab15\margesort.h
+	<vector>
+
