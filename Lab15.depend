@@ -7,11 +7,11 @@
 	"InsertionSort.h"
 	<iostream>
 
-1543961875 source:f:\data structure\lab15\margesort.cpp
+1544916756 source:f:\data structure\lab15\margesort.cpp
 	"MargeSort.h"
 	<iostream>
 
-1543962178 source:f:\data structure\lab15\selectionsort.cpp
+1544916849 source:f:\data structure\lab15\selectionsort.cpp
 	"SelectionSort.h"
 	<iostream>
 
@@ -24,7 +24,7 @@
 1543870174 f:\data structure\lab15\insertionsort.h
 	<vector>
 
-1543962424 source:f:\data structure\lab15\main.cpp
+1544823111 source:f:\data structure\lab15\main.cpp
 	<iostream>
 	"SelectionSort.h"
 	"InsertionSort.h"

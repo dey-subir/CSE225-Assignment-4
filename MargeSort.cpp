@@ -12,28 +12,28 @@ MergeSort::~MergeSort()
 void Merger(int arr[], int lo, int mi, int hi)
 {
  int *temp = new int[hi-lo+1];
- int i = lo, j = mi + 1;
- int k = 0;
- while(i <= mi && j <=hi)
+ int index = lo, key = mi + 1;
+ int lead= 0;
+ while(index <= mi && key <=hi)
  {
- if(arr[i] <= arr[j])
- temp[k++] = arr[i++];
+ if(arr[index] <= arr[key])
+ temp[lead++] = arr[index++];
  else
- temp[k++] = arr[j++];
+ temp[lead++] = arr[key++];
  }
 
- while(i <= mi)
- temp[k++] = arr[i++];
+ while(index <= mi)
+ temp[lead++] = arr[index++];
 
- while(j <= hi)
- temp[k++] = arr[j++];
+ while(key<= hi)
+ temp[lead++] = arr[key++];
 
-  for(k = 0, i = lo; i <= hi; ++i, ++k)
- arr[i] = temp[k];
+  for(lead= 0, index= lo; index <= hi; ++index, ++lead)
+ arr[index] = temp[lead];
  delete []temp;
-    for(int i=0;i<8;i++)
+    for(int index=0;index<8;index++)
             {
-                cout<<arr[i]<<" ";
+                cout<<arr[index]<<" ";
              }
              cout<<""<<endl;
 }

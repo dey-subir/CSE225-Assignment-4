@@ -13,9 +13,9 @@ SelectionSort::~SelectionSort()
 }
 inline void Swap(int &a,int &b)
 {
-    int k=a;
+    int temp=a;
     a=b;
-    b=k;
+    b=temp;
 }
 void SelectionSort::SelectioSorter(int arr[],int arr_size)
 {
